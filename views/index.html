@@ -1,0 +1,34 @@
+{% extends 'layout.html' %} 
+{% block title %}点赞插件{% endblock %}
+ {% block head %} 
+ <head></head>
+ {% parent %}
+{% endblock %}
+ {% block content %}
+   <body>
+<div id="bg">
+    <div id="praise" style="text-align: center; font-size: 120px; margin: 0px;opacity:0;transition:all 0.5s ease ; position: relative;top:40px">+1</div>
+    <div id="container">
+        <div id="arm"></div>
+        <div class="finger one">
+            <div class="nail">
+                <div id="shadow"></div>
+            </div>
+        </div>
+        <div class="finger two">
+            <div class="nail"></div>
+        </div>
+        <div class="finger three">
+            <div class="nail"></div>
+        </div>
+        <div class="finger four">
+            <div class="nail"></div>
+        </div>
+        <div class="finger five">
+            <div class="nail"></div>
+        </div>
+        <div id="cover"></div>
+    </div>
+</div>
+</body>
+{% endblock %}
